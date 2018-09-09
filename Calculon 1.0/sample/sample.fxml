@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="157.0" prefWidth="500.0" style="-fx-background-color: ;" AnchorPane.bottomAnchor="255.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="label" alignment="TOP_CENTER" disable="true" layoutX="113.0" layoutY="54.0" prefHeight="48.0" prefWidth="375.0" textAlignment="CENTER" textFill="#0a0a0a" AnchorPane.leftAnchor="113.0" AnchorPane.rightAnchor="112.0">
+               <font>
+                  <Font name="Cambria" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="155.0" prefHeight="245.0" prefWidth="500.0" style="-fx-background-color: #CCCCCC;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="155.0">
+         <children>
+            <Button fx:id="button1" layoutX="27.0" layoutY="24.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="1" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="393.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" layoutX="124.0" layoutY="24.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="2">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button3" layoutX="235.0" layoutY="24.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="3">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button4" layoutX="27.0" layoutY="88.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="4">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button5" layoutX="124.0" layoutY="88.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="5">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button6" layoutX="235.0" layoutY="88.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="6">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button7" layoutX="27.0" layoutY="145.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="7">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button8" layoutX="124.0" layoutY="145.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="8">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button9" layoutX="235.0" layoutY="145.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="9">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="button0" layoutX="27.0" layoutY="204.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonEqv" layoutX="235.0" layoutY="204.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="=">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonPlus" layoutX="376.0" layoutY="24.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="+">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonMin" layoutX="376.0" layoutY="88.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="-">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonMult" layoutX="376.0" layoutY="145.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="*">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonDiv" layoutX="376.0" layoutY="204.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="/">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonCE" layoutX="124.0" layoutY="204.0" mnemonicParsing="false" onAction="#getButton1" onMouseClicked="#mouseClick" prefHeight="35.0" prefWidth="80.0" text="ce">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
